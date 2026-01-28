@@ -2,13 +2,261 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OkiUS Atlas | Okinawa Main Island Directory + Community</title>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">OA</span>
+      <div>
+        <p class="brand-title">OkiUS Atlas</p>
+        <p class="brand-sub">Okinawa Main Island Directory + Community</p>
+      </div>
+    </div>
+    <nav class="site-nav">
+      <a href="#directory">Directory</a>
+      <a href="#community">Community</a>
+      <a href="#how">How it works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a class="btn ghost" href="#community">Join the community</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="pill">Admin-curated listings, community-driven updates</p>
+        <h1>Find your Okinawa rhythm: local eats, beaches, trails, ocean play, and more.</h1>
+        <p class="hero-lede">
+          Built for Americans living on Okinawa Main Island. One place for trusted, admin-managed
+          directories and a friendly community where locals and newcomers share updates.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#directory">Browse the directory</a>
+          <a class="btn ghost" href="#community">See community boards</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <p class="stat">8</p>
+            <p class="stat-label">Curated categories</p>
+          </div>
+          <div>
+            <p class="stat">Main Island</p>
+            <p class="stat-label">Naha to Nago focus</p>
+          </div>
+          <div>
+            <p class="stat">Admin verified</p>
+            <p class="stat-label">Quality over noise</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <p>Featured this week</p>
+          <span class="badge">Admin pick</span>
+        </div>
+        <h3>Onna Day Plan</h3>
+        <p class="muted">Plan: lunch in Onna, Blue Cave snorkel, then Manza Ocean Park for sunset.</p>
+        <div class="chip-row">
+          <span class="chip">Onna</span>
+          <span class="chip">Beach</span>
+          <span class="chip">Bar</span>
+        </div>
+        <button class="btn small">View plan</button>
+        <p class="hint">Admin-curated plan idea</p>
+      </div>
+      <div class="orb orb-one"></div>
+      <div class="orb orb-two"></div>
+    </section>
+
+    <section id="directory" class="section">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Directory</p>
+          <h2>Curated listings for life on the island.</h2>
+          <p class="muted">Admin-managed only for launch. User submissions coming later.</p>
+        </div>
+        <div class="directory-meta">
+          <div>
+            <p class="stat" id="listing-count">0</p>
+            <p class="stat-label">Listings shown</p>
+          </div>
+          <div>
+            <p class="stat">South / Central / North</p>
+            <p class="stat-label">Regional filters</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="filters">
+        <div class="search">
+          <input id="search" type="search" placeholder="Search by name, area, or tag" />
+        </div>
+        <div class="filter-row">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="south">South</button>
+          <button class="filter-btn" data-filter="central">Central</button>
+          <button class="filter-btn" data-filter="north">North</button>
+        </div>
+        <div class="filter-row">
+          <button class="filter-btn" data-filter="local-eats">Local Eats</button>
+          <button class="filter-btn" data-filter="us-favorites">US Favorites</button>
+          <button class="filter-btn" data-filter="beach">Beach</button>
+          <button class="filter-btn" data-filter="hike">Hike</button>
+          <button class="filter-btn" data-filter="ocean">Ocean Activities</button>
+          <button class="filter-btn" data-filter="bar">Bar</button>
+          <button class="filter-btn" data-filter="shopping">Shopping</button>
+          <button class="filter-btn" data-filter="golf">Golf</button>
+        </div>
+      </div>
+
+      <div class="grid" id="listing-grid">
+      </div>
+
+      <div class="section-header" style="margin-top: 3rem;">
+        <div>
+          <p class="eyebrow">Category hubs</p>
+          <h2>Jump into a focused guide.</h2>
+          <p class="muted">Each hub has a short intro, regional filter, and admin notes.</p>
+        </div>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="/category-local-eats.html">
+          <h3>Local Eats</h3>
+          <p class="muted">Okinawan classics and local favorites.</p>
+        </a>
+        <a class="category-card" href="/category-us-favorites.html">
+          <h3>US Favorites</h3>
+          <p class="muted">American comfort food and familiar chains.</p>
+        </a>
+        <a class="category-card" href="/category-beach.html">
+          <h3>Beaches</h3>
+          <p class="muted">Swim, relax, and sunset spots.</p>
+        </a>
+        <a class="category-card" href="/category-hike.html">
+          <h3>Hiking</h3>
+          <p class="muted">Trails, forests, and scenic climbs.</p>
+        </a>
+        <a class="category-card" href="/category-ocean.html">
+          <h3>Ocean Activities</h3>
+          <p class="muted">Snorkel, dive, or play on the water.</p>
+        </a>
+        <a class="category-card" href="/category-bar.html">
+          <h3>Bars</h3>
+          <p class="muted">Nightlife areas and chill spots.</p>
+        </a>
+        <a class="category-card" href="/category-shopping.html">
+          <h3>Shopping</h3>
+          <p class="muted">Supermarkets, malls, and essentials.</p>
+        </a>
+        <a class="category-card" href="/category-golf.html">
+          <h3>Golf</h3>
+          <p class="muted">Courses and range options.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="community" class="section community">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h2>Talk, trade, and connect with neighbors.</h2>
+          <p class="muted">Second priority focus. Launching with read-only boards.</p>
+        </div>
+        <div class="community-card">
+          <p class="pill">Coming soon</p>
+          <h3>User accounts and post creation</h3>
+          <p class="muted">For now, admin posts updates and verified alerts.</p>
+          <button class="btn small">Request invite</button>
+        </div>
+      </div>
+
+      <div class="grid community-grid">
+        <article class="board">
+          <h3>Housing + Neighborhoods</h3>
+          <p>Base proximity, commute tips, and landlord notes.</p>
+          <button class="btn ghost small">View board</button>
+        </article>
+        <article class="board">
+          <h3>Buy / Sell / Trade</h3>
+          <p>Furniture, car seats, appliances, and swaps.</p>
+          <button class="btn ghost small">View board</button>
+        </article>
+        <article class="board">
+          <h3>Family + Kids</h3>
+          <p>Schools, play cafes, and weekend ideas.</p>
+          <button class="btn ghost small">View board</button>
+        </article>
+        <article class="board">
+          <h3>Events + Meetups</h3>
+          <p>Language exchange, sports, and community drives.</p>
+          <button class="btn ghost small">View board</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="section how">
+      <div class="section-header">
+        <div>
+          <p class="eyebrow">How it works</p>
+          <h2>Clean data now, open contributions later.</h2>
+        </div>
+      </div>
+      <div class="grid how-grid">
+        <article class="info-card">
+          <h3>1. Admin curated</h3>
+          <p>Every listing is verified, tagged, and reviewed for clarity.</p>
+        </article>
+        <article class="info-card">
+          <h3>2. Community second</h3>
+          <p>Discussion boards launch next with moderation and safety rules.</p>
+        </article>
+        <article class="info-card">
+          <h3>3. Submissions later</h3>
+          <p>Users can submit tips; admins approve to keep quality high.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section spotlight" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Help us build the best Okinawa guide for Americans.</h2>
+        <p class="muted">Tell us what listings you want first. We will prioritize based on demand.</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your name" />
+        <input type="email" placeholder="Email" />
+        <select>
+          <option>Listing request</option>
+          <option>Partnership</option>
+          <option>Community feedback</option>
+        </select>
+        <textarea rows="4" placeholder="Share details"></textarea>
+        <button class="btn" type="button">Send request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="brand-title">OkiUS Atlas</p>
+      <p class="muted">Okinawa Main Island directory + community for Americans.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#directory">Directory</a>
+      <a href="#community">Community</a>
+      <a href="#how">How it works</a>
+    </div>
+    <div class="footer-meta">
+      <p class="muted">Admin-managed launch. Verify hours before visiting.</p>
+    </div>
+  </footer>
+
+  <script src="/main.js"></script>
 </body>
 </html>

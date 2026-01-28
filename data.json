@@ -1,0 +1,677 @@
+{
+  "listings": [
+    {
+      "id": "shuri-soba",
+      "name": "Shuri Soba",
+      "category": "local-eats",
+      "region": "south",
+      "summary": "Classic Okinawa soba shop near Shuri with short daily hours.",
+      "area": "Shuri, Naha",
+      "tags": [
+        "Local favorite",
+        "Cash only"
+      ],
+      "link": "/listing-shuri-soba.html",
+      "hours": "Check official site",
+      "price": "$$ (estimate)",
+      "english": "Limited",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Shuri Soba Shuri, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "yunangi",
+      "name": "Yunangi",
+      "category": "local-eats",
+      "region": "south",
+      "summary": "Long-running Okinawan home-cooking izakaya off Kokusai-dori.",
+      "area": "Kumoji, Naha",
+      "tags": [
+        "Okinawan classics",
+        "Small plates"
+      ],
+      "link": "/listing-yunangi.html",
+      "hours": "Check official site",
+      "price": "$$ (estimate)",
+      "english": "Limited",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Yunangi Kumoji, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "aw-kokusai",
+      "name": "A&W Kokusai-dori (Matsuo)",
+      "category": "us-favorites",
+      "region": "south",
+      "summary": "Okinawa-only A&W with classic US fast-food vibes.",
+      "area": "Kokusai-dori, Naha",
+      "tags": [
+        "Family friendly",
+        "Quick bites"
+      ],
+      "link": "/listing-aw-kokusai.html",
+      "hours": "Check official site",
+      "price": "$$ (estimate)",
+      "english": "Easy",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "A&W Kokusai-dori (Matsuo) Kokusai-dori, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "jef-okinawa",
+      "name": "JEF Okinawa",
+      "category": "us-favorites",
+      "region": "south",
+      "summary": "Local burger chain famous for the goya burger.",
+      "area": "Tomigusuku + islandwide",
+      "tags": [
+        "Local chain",
+        "Casual"
+      ],
+      "link": "/listing-jef-okinawa.html",
+      "hours": "Check official site",
+      "price": "$$ (estimate)",
+      "english": "Easy",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "JEF Okinawa Tomigusuku + islandwide Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "panda-parco",
+      "name": "Panda Express (PARCO CITY)",
+      "category": "us-favorites",
+      "region": "central",
+      "summary": "American Chinese favorites inside Urasoe's PARCO CITY.",
+      "area": "Urasoe",
+      "tags": [
+        "Mall dining",
+        "Easy parking"
+      ],
+      "link": "/listing-panda-parco.html",
+      "hours": "Check official site",
+      "price": "$$ (estimate)",
+      "english": "Easy",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Panda Express (PARCO CITY) Urasoe Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "naminoue-beach",
+      "name": "Naminoue Beach",
+      "category": "beach",
+      "region": "south",
+      "summary": "Naha city beach with easy access and facilities.",
+      "area": "Wakasa, Naha",
+      "tags": [
+        "City beach",
+        "Quick access"
+      ],
+      "link": "/listing-naminoue-beach.html",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Naminoue Beach Wakasa, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "araha-beach",
+      "name": "Araha Beach",
+      "category": "beach",
+      "region": "central",
+      "summary": "Family-friendly beach with park amenities and BBQ options.",
+      "area": "Chatan",
+      "tags": [
+        "BBQ friendly",
+        "Playground nearby"
+      ],
+      "link": "/listing-araha-beach.html",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Araha Beach Chatan Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "emerald-beach",
+      "name": "Emerald Beach",
+      "category": "beach",
+      "region": "north",
+      "summary": "Clear water beach inside Ocean Expo Park in Motobu.",
+      "area": "Motobu",
+      "tags": [
+        "Three beach zones",
+        "Free entry"
+      ],
+      "link": "/listing-emerald-beach.html",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Emerald Beach Motobu Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "sefa-utaki",
+      "name": "Sefa Utaki",
+      "category": "hike",
+      "region": "south",
+      "summary": "Sacred World Heritage site with short forest walks.",
+      "area": "Nanjo",
+      "tags": [
+        "World Heritage",
+        "Easy walk"
+      ],
+      "link": "/listing-sefa-utaki.html",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Trailhead parking",
+      "phone": "TBD",
+      "mapQuery": "Sefa Utaki Nanjo Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "yaedake",
+      "name": "Mount Yaedake",
+      "category": "hike",
+      "region": "north",
+      "summary": "Scenic climb and drive with winter cherry blossoms.",
+      "area": "Motobu",
+      "tags": [
+        "Cherry blossoms",
+        "Family-friendly park"
+      ],
+      "link": "/listing-yaedake.html",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Trailhead parking",
+      "phone": "TBD",
+      "mapQuery": "Mount Yaedake Motobu Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "hiji-falls",
+      "name": "Hiji Waterfall Trail",
+      "category": "hike",
+      "region": "north",
+      "summary": "Yambaru forest trail. Currently closed for repairs.",
+      "area": "Kunigami",
+      "tags": [
+        "Yambaru forest",
+        "Closure notice"
+      ],
+      "link": "/listing-hiji-falls.html",
+      "status": "closed",
+      "hours": "Daylight hours",
+      "price": "Free (varies)",
+      "english": "N/A",
+      "parking": "Trailhead parking",
+      "phone": "TBD",
+      "mapQuery": "Hiji Waterfall Trail Kunigami Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "cape-maeda",
+      "name": "Cape Maeda (Blue Cave)",
+      "category": "ocean",
+      "region": "central",
+      "summary": "Top snorkeling/diving spot with sea-condition flags.",
+      "area": "Onna",
+      "tags": [
+        "Blue Cave",
+        "Year-round"
+      ],
+      "link": "/listing-cape-maeda.html",
+      "hours": "Seasonal / daylight",
+      "price": "Varies by operator",
+      "english": "Varies",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Cape Maeda (Blue Cave) Onna Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "manza-ocean-park",
+      "name": "Manza Ocean Park",
+      "category": "ocean",
+      "region": "central",
+      "summary": "Inflatable ocean park with resort access.",
+      "area": "Onna",
+      "tags": [
+        "Kids friendly",
+        "Resort access"
+      ],
+      "link": "/listing-manza-ocean-park.html",
+      "hours": "Seasonal / daylight",
+      "price": "Varies by operator",
+      "english": "Varies",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Manza Ocean Park Onna Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "araha-marine",
+      "name": "Araha Beach (Marine Sports)",
+      "category": "ocean",
+      "region": "central",
+      "summary": "Seasonal marine activities at Araha Beach.",
+      "area": "Chatan",
+      "tags": [
+        "Family friendly",
+        "Parking nearby"
+      ],
+      "link": "/listing-araha-marine.html",
+      "hours": "Seasonal / daylight",
+      "price": "Varies by operator",
+      "english": "Varies",
+      "parking": "Varies",
+      "phone": "TBD",
+      "mapQuery": "Araha Beach (Marine Sports) Chatan Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "kokusai-nightlife",
+      "name": "Kokusai-dori Nightlife",
+      "category": "bar",
+      "region": "south",
+      "summary": "Naha's main street with late-night bars and live music.",
+      "area": "Downtown Naha",
+      "tags": [
+        "Walkable",
+        "English-friendly"
+      ],
+      "link": "/listing-kokusai-nightlife.html",
+      "hours": "Evenings",
+      "price": "$$ (estimate)",
+      "english": "Varies",
+      "parking": "Paid lots nearby",
+      "phone": "TBD",
+      "mapQuery": "Kokusai-dori Nightlife Downtown Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "public-market-area",
+      "name": "Public Market Area",
+      "category": "bar",
+      "region": "south",
+      "summary": "Dense izakaya and standing-bar area near Makishi Market.",
+      "area": "Makishi, Naha",
+      "tags": [
+        "Bar hopping",
+        "Local vibes"
+      ],
+      "link": "/listing-public-market-area.html",
+      "hours": "Evenings",
+      "price": "$$ (estimate)",
+      "english": "Varies",
+      "parking": "Paid lots nearby",
+      "phone": "TBD",
+      "mapQuery": "Public Market Area Makishi, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "makishi-market",
+      "name": "Makishi Public Market",
+      "category": "shopping",
+      "region": "south",
+      "summary": "Fresh seafood, produce, and local specialties.",
+      "area": "Matsuo, Naha",
+      "tags": [
+        "Local groceries",
+        "Food stalls nearby"
+      ],
+      "link": "/listing-makishi-market.html",
+      "hours": "Check official site",
+      "price": "Varies",
+      "english": "Varies",
+      "parking": "Available",
+      "phone": "TBD",
+      "mapQuery": "Makishi Public Market Matsuo, Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "kokusai-shopping",
+      "name": "Kokusai-dori Street",
+      "category": "shopping",
+      "region": "south",
+      "summary": "Main shopping street with crafts and souvenirs.",
+      "area": "Downtown Naha",
+      "tags": [
+        "Souvenirs",
+        "Street food"
+      ],
+      "link": "/listing-kokusai-shopping.html",
+      "hours": "Check official site",
+      "price": "Varies",
+      "english": "Varies",
+      "parking": "Available",
+      "phone": "TBD",
+      "mapQuery": "Kokusai-dori Street Downtown Naha Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "aeon-rycom",
+      "name": "AEON Mall Okinawa Rycom",
+      "category": "shopping",
+      "region": "central",
+      "summary": "Massive mall with dining and tax-free counters.",
+      "area": "Kitanakagusuku",
+      "tags": [
+        "Tax-free",
+        "Food court"
+      ],
+      "link": "/listing-aeon-rycom.html",
+      "hours": "Check official site",
+      "price": "Varies",
+      "english": "Varies",
+      "parking": "Available",
+      "phone": "TBD",
+      "mapQuery": "AEON Mall Okinawa Rycom Kitanakagusuku Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "aeon-style",
+      "name": "AEON Style Rycom",
+      "category": "shopping",
+      "region": "central",
+      "summary": "Large supermarket inside the Rycom complex.",
+      "area": "Kitanakagusuku",
+      "tags": [
+        "Groceries",
+        "Everyday goods"
+      ],
+      "link": "/listing-aeon-style.html",
+      "hours": "Check official site",
+      "price": "Varies",
+      "english": "Varies",
+      "parking": "Available",
+      "phone": "TBD",
+      "mapQuery": "AEON Style Rycom Kitanakagusuku Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "parco-city",
+      "name": "SAN-A PARCO CITY",
+      "category": "shopping",
+      "region": "central",
+      "summary": "Fashion, food halls, and sunset views on the deck.",
+      "area": "Urasoe",
+      "tags": [
+        "Fashion",
+        "Ocean views"
+      ],
+      "link": "/listing-parco-city.html",
+      "hours": "Check official site",
+      "price": "Varies",
+      "english": "Varies",
+      "parking": "Available",
+      "phone": "TBD",
+      "mapQuery": "SAN-A PARCO CITY Urasoe Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "kise-cc",
+      "name": "Kanehide Kise Country Club",
+      "category": "golf",
+      "region": "north",
+      "summary": "Forest + ocean setting with resort accommodations.",
+      "area": "Kise, Nago",
+      "tags": [
+        "Yambaru views",
+        "On-site stay"
+      ],
+      "link": "/listing-kise-cc.html",
+      "hours": "Check official site",
+      "price": "Varies by season",
+      "english": "Varies",
+      "parking": "On-site",
+      "phone": "TBD",
+      "mapQuery": "Kanehide Kise Country Club Kise, Nago Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "pgm-okinawa",
+      "name": "PGM Golf Resort Okinawa",
+      "category": "golf",
+      "region": "central",
+      "summary": "Championship-level course in Onna Village.",
+      "area": "Onna",
+      "tags": [
+        "Tournament history",
+        "Resort setting"
+      ],
+      "link": "/listing-pgm-okinawa.html",
+      "hours": "Check official site",
+      "price": "Varies by season",
+      "english": "Varies",
+      "parking": "On-site",
+      "phone": "TBD",
+      "mapQuery": "PGM Golf Resort Okinawa Onna Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    },
+    {
+      "id": "naha-golf",
+      "name": "Naha Golf Club",
+      "category": "golf",
+      "region": "south",
+      "summary": "Classic championship course with sea breezes.",
+      "area": "Yaese",
+      "tags": [
+        "Championship course",
+        "Short course"
+      ],
+      "link": "/listing-naha-golf.html",
+      "hours": "Check official site",
+      "price": "Varies by season",
+      "english": "Varies",
+      "parking": "On-site",
+      "phone": "TBD",
+      "mapQuery": "Naha Golf Club Yaese Okinawa",
+      "notes": "Admin-curated. Verify details before visiting.",
+      "lastVerified": "2026-01-28",
+      "verificationLog": [
+        {
+          "date": "2026-01-28",
+          "by": "Admin",
+          "note": "Initial verification log entry."
+        }
+      ]
+    }
+  ]
+}

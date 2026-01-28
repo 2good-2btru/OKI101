@@ -75,6 +75,36 @@
   <section class="section">
     <div class="section-header">
       <div>
+        <p class="eyebrow">Comments</p>
+        <h2>Share quick tips</h2>
+        <p class="muted">Local-only MVP. Comments are saved on this device.</p>
+      </div>
+      <div class="directory-meta">
+        <p class="stat" id="comment-count">0</p>
+        <p class="stat-label">Comments saved</p>
+      </div>
+    </div>
+    <form class="comment-form" id="comment-form">
+      <div class="comment-row">
+        <input type="text" id="comment-name" placeholder="Name (optional)" maxlength="32" />
+        <select id="comment-tag">
+          <option value="Tip">Tip</option>
+          <option value="Update">Update</option>
+          <option value="Question">Question</option>
+        </select>
+      </div>
+      <textarea id="comment-body" rows="4" placeholder="Share a quick tip or update (max 220 chars)" maxlength="220" required></textarea>
+      <div class="comment-actions">
+        <button class="btn" type="submit">Post comment</button>
+        <button class="btn ghost" type="button" id="comment-clear">Clear local comments</button>
+      </div>
+    </form>
+    <div class="comment-list" id="comment-list"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
         <p class="eyebrow">Keep exploring</p>
         <h2>More picks you might like</h2>
         <p class="muted">Nearby or same-category options curated for you.</p>

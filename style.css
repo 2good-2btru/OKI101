@@ -421,6 +421,69 @@ img {
   font-family: inherit;
 }
 
+.comment-form {
+  display: grid;
+  gap: 0.8rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.4rem;
+  box-shadow: 0 16px 30px rgba(20, 19, 18, 0.08);
+}
+
+.comment-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) minmax(140px, 200px);
+  gap: 0.8rem;
+}
+
+.comment-form input,
+.comment-form select,
+.comment-form textarea {
+  padding: 0.75rem 0.9rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+  font-family: inherit;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.comment-list {
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.comment-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem 1.2rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.comment-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.comment-tag {
+  background: rgba(239, 111, 63, 0.15);
+  color: var(--accent-dark);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
 .site-footer {
   padding: 2.5rem 6vw;
   border-top: 1px solid var(--line);
@@ -641,7 +704,8 @@ img {
   }
 
   .hero-actions .btn,
-  .contact-form .btn {
+  .contact-form .btn,
+  .comment-actions .btn {
     width: 100%;
   }
 
@@ -658,6 +722,10 @@ img {
   }
 
   .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .comment-row {
     grid-template-columns: 1fr;
   }
 

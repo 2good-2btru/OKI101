@@ -155,6 +155,133 @@ const renderListing = (listing) => {
   }
 };
 
+const COMMENT_STORAGE_KEY = 'oki101-comments';
+
+const readComments = () => {
+  try {
+    const raw = localStorage.getItem(COMMENT_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch (error) {
+    return {};
+  }
+};
+
+const writeComments = (data) => {
+  localStorage.setItem(COMMENT_STORAGE_KEY, JSON.stringify(data));
+};
+
+const renderComments = (listingId) => {
+  const list = document.getElementById('comment-list');
+  const count = document.getElementById('comment-count');
+  if (!list) return;
+
+  const data = readComments();
+  const comments = data[listingId] || [];
+  clearChildren(list);
+
+  if (count) {
+    count.textContent = String(comments.length);
+  }
+
+  if (!comments.length) {
+    const empty = document.createElement('p');
+    empty.className = 'muted';
+    empty.textContent = 'No local comments yet. Be the first to add one.';
+    list.appendChild(empty);
+    return;
+  }
+
+  comments.forEach((comment) => {
+    const card = document.createElement('article');
+    card.className = 'comment-card';
+
+    const meta = document.createElement('div');
+    meta.className = 'comment-meta';
+
+    const tag = document.createElement('span');
+    tag.className = 'comment-tag';
+    tag.textContent = comment.tag || 'Tip';
+
+    const name = document.createElement('span');
+    name.textContent = comment.name ? comment.name : 'Anonymous';
+
+    const date = document.createElement('span');
+    date.textContent = comment.date || '';
+
+    meta.append(tag, name, date);
+
+    const body = document.createElement('p');
+    body.textContent = comment.body;
+
+    const actions = document.createElement('div');
+    actions.className = 'comment-actions';
+
+    const likeBtn = document.createElement('button');
+    likeBtn.className = 'btn ghost small';
+    likeBtn.type = 'button';
+    likeBtn.textContent = `Like (${comment.likes || 0})`;
+    likeBtn.addEventListener('click', () => {
+      const data = readComments();
+      const items = data[listingId] || [];
+      const index = items.findIndex((item) => item.id === comment.id);
+      if (index >= 0) {
+        items[index].likes = (items[index].likes || 0) + 1;
+        writeComments(data);
+        renderComments(listingId);
+      }
+    });
+
+    actions.appendChild(likeBtn);
+
+    card.append(meta, body, actions);
+    list.appendChild(card);
+  });
+};
+
+const bindComments = (listingId) => {
+  const form = document.getElementById('comment-form');
+  const clearBtn = document.getElementById('comment-clear');
+  if (!form) return;
+
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const nameInput = document.getElementById('comment-name');
+    const tagInput = document.getElementById('comment-tag');
+    const bodyInput = document.getElementById('comment-body');
+    if (!bodyInput) return;
+
+    const body = bodyInput.value.trim();
+    if (!body) return;
+
+    const entry = {
+      id: crypto && crypto.randomUUID ? crypto.randomUUID() : String(Date.now()),
+      name: nameInput ? nameInput.value.trim().slice(0, 32) : '',
+      tag: tagInput ? tagInput.value : 'Tip',
+      body: body.slice(0, 220),
+      likes: 0,
+      date: new Date().toLocaleDateString('en-US'),
+    };
+
+    const data = readComments();
+    data[listingId] = data[listingId] || [];
+    data[listingId].unshift(entry);
+    writeComments(data);
+
+    if (nameInput) nameInput.value = '';
+    if (bodyInput) bodyInput.value = '';
+    renderComments(listingId);
+  });
+
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      const data = readComments();
+      data[listingId] = [];
+      writeComments(data);
+      renderComments(listingId);
+    });
+  }
+};
+
 const renderNav = (listing, listings) => {
   const nav = document.getElementById('listing-nav');
   if (!nav) return;
@@ -262,6 +389,8 @@ const init = async () => {
     renderListing(listing);
     renderRelated(listing, data.listings);
     renderNav(listing, data.listings);
+    renderComments(listingId);
+    bindComments(listingId);
   } catch (error) {
     renderNotFound();
   }

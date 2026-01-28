@@ -98,7 +98,8 @@ const createCard = (listing) => {
   const link = document.createElement('a');
   link.className = 'btn ghost small';
   link.textContent = 'View details';
-  link.setAttribute('href', listing.link || '/listing-template.html');
+  const detailHref = listing.id ? `/listing.html?id=${listing.id}` : (listing.link || '#');
+  link.setAttribute('href', detailHref);
 
   article.append(top, title, summary, meta, chips, link);
   return article;

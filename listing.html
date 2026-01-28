@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Makishi Public Market | OkiUS Atlas</title>
+  <title>Listing | OkiUS Atlas</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
@@ -30,52 +30,33 @@
     <div class="breadcrumb">
       <a href="/index.html">Home</a>
       <span>/</span>
-      <a href="/category-shopping.html">Shopping</a>
+      <a id="breadcrumb-category-link" href="/index.html#directory">Category</a>
       <span>/</span>
-      <span>Makishi Public Market</span>
+      <span id="breadcrumb-listing">Listing</span>
     </div>
-    <h1>Makishi Public Market</h1>
-    <p class="muted">Fresh seafood, produce, and local specialties.</p>
-    <div class="chip-row">
-      <span class="chip">Shopping</span>
-      <span class="chip">South</span>
-      <span class="chip">Local groceries</span><span class="chip">Food stalls nearby</span>
-    </div>
+    <h1 id="listing-name">Listing name</h1>
+    <p class="muted" id="listing-summary">Short one-line summary of what makes this spot special.</p>
+    <div class="chip-row" id="listing-chips"></div>
   </section>
 
   <section class="detail-layout">
     <div class="detail-card">
       <h2>Overview</h2>
-      <p class="muted">Fresh seafood, produce, and local specialties. This listing is curated for Americans living on Okinawa Main Island.</p>
-      <div class="callout">Admin-curated. Verify details before visiting.</div>
+      <p class="muted" id="listing-overview"></p>
+      <div class="callout" id="listing-note"></div>
       <h3>Highlights</h3>
-      <ul>
-        <li>Local groceries</li><li>Food stalls nearby</li>
-      </ul>
+      <ul id="listing-highlights"></ul>
     </div>
 
     <aside class="detail-card">
       <h3>Quick facts</h3>
-      <div class="card-meta">
-        <span>Area: Matsuo, Naha</span>
-        <span>Category: Shopping</span>
-        <span>Region: South</span>
-        <span>Hours: Check official site</span>
-        <span>Price: Varies</span>
-        <span>English: Varies</span>
-        <span>Parking: Available</span>
-        <span>Phone: TBD</span>
-        <span>Verified: 01/28/2026</span>
-        
-      </div>
+      <div class="card-meta" id="quick-facts"></div>
       <h3>Map</h3>
-      <a class="btn ghost small" href="https://www.google.com/maps/search/?api=1&query=Makishi+Public+Market+Matsuo,+Naha+Okinawa" target="_blank" rel="noreferrer">Open in Google Maps</a>
+      <a class="btn ghost small" id="map-link" href="#" target="_blank" rel="noreferrer">Open in Google Maps</a>
       <p class="hint">Searches by name + area. Verify the exact location.</p>
       <h3>Good for</h3>
-      <div class="chip-row">
-        <span class="chip">Local groceries</span><span class="chip">Food stalls nearby</span>
-      </div>
-      <button class="btn small">Add to itinerary</button>
+      <div class="chip-row" id="good-for"></div>
+      <button class="btn small" type="button">Add to itinerary</button>
       <p class="hint">Admin-curated. Update notes after verification.</p>
     </aside>
   </section>
@@ -88,15 +69,28 @@
         <p class="muted">Track what changed and when.</p>
       </div>
     </div>
-    <div class="category-grid">
-      
-            <article class="category-card">
-              <span class="badge">01/28/2026</span>
-              <h3>Admin</h3>
-              <p class="muted">Initial verification log entry.</p>
-            </article>
-            
+    <div class="category-grid" id="verification-log"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Keep exploring</p>
+        <h2>More picks you might like</h2>
+        <p class="muted">Nearby or same-category options curated for you.</p>
+      </div>
     </div>
+    <div class="category-grid" id="related-grid"></div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <p class="eyebrow">Navigation</p>
+        <h2>Keep browsing the directory</h2>
+      </div>
+    </div>
+    <div class="filter-row" id="listing-nav"></div>
   </section>
 
   <footer class="site-footer">
@@ -113,5 +107,6 @@
       <p class="muted">Admin-managed launch. Verify hours before visiting.</p>
     </div>
   </footer>
+  <script src="/listing.js"></script>
 </body>
 </html>

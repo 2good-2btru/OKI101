@@ -15,11 +15,12 @@ const renderCard = (listing) => {
   summary.className = 'muted';
   summary.textContent = listing.summary;
 
-  const link = document.createElement(listing.link ? 'a' : 'button');
-  link.className = listing.link ? 'btn small' : 'btn ghost small';
-  link.textContent = listing.link ? 'View details' : 'Preview soon';
-  if (listing.link) {
-    link.setAttribute('href', listing.link);
+  const detailHref = listing.id ? `/listing.html?id=${listing.id}` : listing.link;
+  const link = document.createElement(detailHref ? 'a' : 'button');
+  link.className = detailHref ? 'btn small' : 'btn ghost small';
+  link.textContent = detailHref ? 'View details' : 'Preview soon';
+  if (detailHref) {
+    link.setAttribute('href', detailHref);
   } else {
     link.setAttribute('type', 'button');
   }
